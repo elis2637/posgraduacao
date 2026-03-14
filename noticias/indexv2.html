@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Exemplo de uma página HTML com um conteúdo semelhante a um portal de notícias">
+    <link rel="stylesheet" href="css/stylev2.css">
+    <title>Portal de Notícias</title>
+</head>
+<body>
+    <!-- 
+        Barra de navegação.
+        Deveria estar presente em todo o site
+    -->
+    <nav>
+        <a href="http://www.puc-rio.br" title='PUC-Rio'>PUC-Rio</a> |
+        <a href="https://www.cce.puc-rio.br/" title="CCEC">CCEC</a> |
+        <a href="https://www.inf.puc-rio.br/" title="Departamento de Informática da PUC-Rio">DI</a> |
+        <a href="index.html">Home-Page</a>
+    </nav>
+    
+    <!-- Cabeçalho da página - também deveria ser igual em todo o site -->
+    <header id="topo">
+        <h1>Meu Portal de Notícias</h1>
+        <img src="images/logo_puc.png" alt="Logotipo da PUC-Rio">
+    </header>
+    
+    <!-- Texto relativo a essa página -->
+    <section>
+        <!-- esses links não devem fazer parte da tag nav -->
+        <div id="index">
+            <h2>Aqui você vai ler:</h2>
+            <ul lang="pt-BR">
+                <li>
+                    <a href="#lorem-ipsum">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit
+                    </a>
+                </li>
+                <li>
+                    <a href="#adipisci-minus">
+                        Adipisci minus a facere
+                    </a>
+                </li>
+                <li>
+                    <a href="#nulla">
+                        Nulla quaerat optio qui aperiam architecto perspiciatis
+                    </a>
+                </li>
+                <li>
+                    <a href="#fugit">
+                        Fugit iste iure ipsam tempora consectetur
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="articles-container">
+            <article id="lorem-ipsum" lang="pt-BR">
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo aliquam cumque esse aut est iusto id, ipsam consequatur quis quia quibusdam aspernatur. Vel, voluptatibus porro! Ipsa unde consequuntur labore voluptate.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius nam optio est beatae excepturi voluptas sequi velit quia molestiae, alias, nemo deleniti facere provident expedita repellat numquam commodi exercitationem maxime?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quia magnam iure, in molestiae magni animi consectetur quos dolores non, cum ipsam labore architecto minima tempore consequatur quasi, facere repellendus?
+                </p>
+                <a href="#topo">Topo</a>
+            </article>
+            <!-- outra notícia -->
+            <article id="adipisci-minus" lang="pt-BR">
+                <h2>Adipisci minus a facere</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo aliquam cumque esse aut est iusto id, ipsam consequatur quis quia quibusdam aspernatur. Vel, voluptatibus porro! Ipsa unde consequuntur labore voluptate.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius nam optio est beatae excepturi voluptas sequi velit quia molestiae, alias, nemo deleniti facere provident expedita repellat numquam commodi exercitationem maxime?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quia magnam iure, in molestiae magni animi consectetur quos dolores non, cum ipsam labore architecto minima tempore consequatur quasi, facere repellendus?
+                </p>
+                <a href="#topo">Topo</a>
+            </article>
+            <!-- mais uma notícia -->
+            <article id="nulla" lang="pt-BR">
+                <h2>Nulla quaerat optio qui aperiam architecto perspiciatis</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo aliquam cumque esse aut est iusto id, ipsam consequatur quis quia quibusdam aspernatur. Vel, voluptatibus porro! Ipsa unde consequuntur labore voluptate.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius nam optio est beatae excepturi voluptas sequi velit quia molestiae, alias, nemo deleniti facere provident expedita repellat numquam commodi exercitationem maxime?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quia magnam iure, in molestiae magni animi consectetur quos dolores non, cum ipsam labore architecto minima tempore consequatur quasi, facere repellendus?
+                </p>
+                <a href="#topo">Topo</a>
+            </article>
+            <article id="fugit" lang="pt-BR">
+                <h2>Fugit iste iure ipsam tempora consectetur</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo aliquam cumque esse aut est iusto id, ipsam consequatur quis quia quibusdam aspernatur. Vel, voluptatibus porro! Ipsa unde consequuntur labore voluptate.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius nam optio est beatae excepturi voluptas sequi velit quia molestiae, alias, nemo deleniti facere provident expedita repellat numquam commodi exercitationem maxime?
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem quia magnam iure, in molestiae magni animi consectetur quos dolores non, cum ipsam labore architecto minima tempore consequatur quasi, facere repellendus?
+                </p>
+                <a href="#topo">Topo</a>
+            </article>
+        </div>
+    </section>
+    
+    <!-- Rodapé da página-->
+    <!-- seria uma boa ideia colocar em todas as páginas -->
+    <footer>
+        <h2>Nome Pomposo para o Nosso Site</h2>
+        <div class="endereco">
+            <h3>Endereço</h3>
+            <p>Rua Sobe e Desce - número que desaparece</p>
+            <p>Rio de Janeiro, RJ - Brasil</p>
+            <p>CEP 22123-456 - Caixa Postal 12345</p>
+        </div>
+        <div class="contato">
+            <h3>Contatos:</h3>
+            <ul>
+                <li>Telefone: (21) 5555-1234</li>
+                <li>Fax: (21) 5555-2345</li>
+                <li>Telex: 123456</li>
+                <li>email: contato@exemplo.com.br</li>
+            </ul>
+        </div>
+        <div class="social-media">
+            <img src="images/discord.png" alt="Discord">
+            <img src="images/facebook.png" alt="Facebook">
+            <img src="images/instagram.png" alt="Instagram">
+            <img src="images/linkedin.png" alt="LinkedIn">
+            <img src="images/pinterest.png" alt="Pinterest">
+            <img src="images/reddit.png" alt="Reddit">
+            <img src="images/telegram.png" alt="Telegram">
+            <img src="images/tiktok.png" alt="TikTok">
+            <img src="images/whatsapp.png" alt="WhatsApp">
+            <img src="images/youtube.png" alt="YouTube">
+        </div>
+    </footer>
+</body>
+</html>
